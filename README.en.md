@@ -1,6 +1,10 @@
 # OpenClaw VPS Setup Guide
 
 > No coding required. A complete guide to running a 24/7 AI agent on your own server.
+>
+> Thanks to [kokoju007](https://github.com/kokoju007), this repository is maintained and improved from their original project to help set up OpenClaw quickly and easily.
+> Original repository: https://github.com/kokoju007/openclaw-setup
+> X: https://x.com/supernovajunn
 
 From **Contabo VPS signup to Telegram connection** — every step covered, even for non-developers.
 
@@ -54,6 +58,12 @@ This script guarantees:
 - No destructive commands (no rm -rf)
 
 The full source code is public — inspect it yourself.
+
+## ⚠️ Disclaimer
+
+- This guide is provided for technical reference only. Final responsibility for account security, secret management, and server access control during install and operation remains with the user.
+- Do not share secrets such as API keys, bot tokens, SSH keys, or passwords via chat. Store them locally using secure methods (environment variables, secret files, masked inputs, or equivalent safe mechanisms).
+- Although this script is based on open-source code, review it against your environment and security policies before running it.
 
 ---
 
