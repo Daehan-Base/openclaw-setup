@@ -113,6 +113,8 @@ Using an SSH key is safer and more convenient.
 
 ## 5) Run OpenClaw installation on the server
 
+If you are not comfortable using command-line commands yet, it is recommended to first set up one AI coding assistant tool (for example Claude Code, Codex, Gemini CLI, or Cursor) and use it to run the steps below.
+
 After SSH access is confirmed, run the following script step by step.  
 This is written for a fresh server where the repository is not cloned yet.
 

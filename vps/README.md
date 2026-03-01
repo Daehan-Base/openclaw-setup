@@ -108,6 +108,8 @@ ssh root@<IP Address>
 
 ## 5) 서버에서 OpenClaw 설치 실행
 
+명령어 사용이 익숙하지 않다면, 먼저 AI 코딩 어시스턴트 도구(예: Claude Code, Codex, Gemini CLI, Cursor)를 설정한 뒤 진행하는 것을 권장합니다.
+
 SSH 접속이 되면 아래 스크립트를 순서대로 붙여넣으세요.  
 레포지토리가 없는 상태를 기준으로 작성했습니다.
 
