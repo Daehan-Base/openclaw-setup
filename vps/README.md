@@ -114,13 +114,19 @@ SSH 접속이 되면 아래 스크립트를 순서대로 붙여넣으세요.
 레포지토리가 없는 상태를 기준으로 작성했습니다.
 
 ```bash
-# 1) 레포지토리 클론
+# 1) git이 없다면
+# 터미널에 아래 메시지가 나오면: command not found: git
+# 아래 명령으로 git을 먼저 설치하세요.
+sudo apt-get update
+sudo apt-get install -y git
+
+# 2) 레포지토리 클론
 git clone https://github.com/Daehan-Base/openclaw-setup.git
 
-# 2) 클론한 폴더로 이동
+# 3) 클론한 폴더로 이동
 cd openclaw-setup
 
-# 3) 설치
+# 4) 설치
 bash install.sh
 ```
 

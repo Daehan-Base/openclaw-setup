@@ -119,13 +119,20 @@ After SSH access is confirmed, run the following script step by step.
 This is written for a fresh server where the repository is not cloned yet.
 
 ```bash
-# 1) Clone this repository
+# 1) If git is missing
+# If you see this:
+# command not found: git
+# install git first:
+sudo apt-get update
+sudo apt-get install -y git
+
+# 2) Clone this repository
 git clone https://github.com/Daehan-Base/openclaw-setup.git
 
-# 2) Enter the cloned directory
+# 3) Enter the cloned directory
 cd openclaw-setup
 
-# 3) Install
+# 4) Install
 bash install_en.sh
 ```
 
