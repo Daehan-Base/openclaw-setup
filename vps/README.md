@@ -28,47 +28,47 @@
 이미지를 보며 아래 순서로 진행합니다.
 
 1) [Contabo 메인 페이지](https://contabo.com/en/)에서 `View all Cloud VPS` 클릭  
-   ![1. Landing Webpage](./assets/imgs/1-landing-webpage.png)
+   ![1. Landing Webpage](./assets/imgs/00-landing-webpage.png)
 
 2) `Cloud VPS` 목록에서 `Cloud VPS 10`으로 이동  
-   ![2. Landing Cloud VPS](./assets/imgs/2-landing-cloud-vps.png)
+   ![2. Landing Cloud VPS](./assets/imgs/01-landing-cloud-vps.png)
 
 3) `Cloud VPS 10` 선택 (4 vCPU / 8GB RAM / 75GB SSD)  
-   ![3. Select VPS 10](./assets/imgs/3-select-vps-10.png)
+   ![3. Select VPS 10](./assets/imgs/02-select-vps-10.png)
 
 4) 기본 설정 확인 및 구성
 
 - **4.1 사양 선택**: 기간은 1/6/12개월 중 원하는 기간으로 선택(기본 추천은 1개월)  
   - 지역(Region): `Asia` 탭에서 지연시간이 가장 낮은 리전(예: Singapore / India / Japan) 선택  
-  ![4. Setup VPS 10, CPU : term : Region](./assets/imgs/4-setup-vps-10-cpu-term-region.png)
+  ![4. Setup VPS 10, CPU : term : Region](./assets/imgs/03-setup-vps-10-cpu-term-region.png)
 
 - **4.2 운영체제 및 스토리지**
   - `150 SSD` 또는 `75 NVMe` 중 하나를 선택  
   - 속도만 중요하면 NVMe가 빠르지만 용량은 작습니다. 일반 사용은 SSD 추천
   - `Image`: Ubuntu 선택 (가장 대중적으로 안정적인 리눅스)
   - `Data Protection`: `No Data Protection` 선택  
-  ![5. Setup VPS 10, Storage : OS : Data Protection](./assets/imgs/5-setup-vps-10-storage-os-data-protection.png)
+  ![5. Setup VPS 10, Storage : OS : Data Protection](./assets/imgs/04-setup-vps-10-storage-os-data-protection.png)
 
 - **4.3 로그인 정보 입력**
   - `username`은 기본 `root`로 둡니다.
   - `password`는 나중에 SSH 접속에 사용하므로 기억하기 쉬우면서도 강한 비밀번호로 설정
   - 네트워크/애드온 설정은 기본값 유지  
   - 참고: 현재 가이드는 비밀번호 방식으로 진행합니다.
-  ![6. Setup VPS 10, Networking : Add-Ons : Username & Password](./assets/imgs/6-setup-vps-10-networking-addons-username-password.png)
+  ![6. Setup VPS 10, Networking : Add-Ons : Username & Password](./assets/imgs/05-setup-vps-10-networking-addons-username-password.png)
 
 5) 결제 진행  
    - 가격은 결제 화면 기준 최신 금액을 확인하세요  
-   ![7. Pay for VPS](./assets/imgs/7-pay-for-vps.png)
+   ![7. Pay for VPS](./assets/imgs/06-pay-for-vps.png)
 
 6) 생성 완료 화면 확인  
-   ![8. Done](./assets/imgs/8-done.png)
+   ![8. Done](./assets/imgs/07-done.png)
 
 7) 이메일로 온 VPS 정보 확인
    - 생성 후 `IP 주소`, `username` 정보가 담긴 메일이 도착합니다.
    - SSH 접속은 반드시 이 IP 주소를 사용합니다.
    - 비밀번호는 앞 단계에서 설정한 값 그대로 사용합니다.
    - 메일에서 정보를 찾을 수 없으면 다시 확인해 주세요.
-   ![9. Get VPS 10 Info](./assets/imgs/9-get-vps-10-info.png)
+   ![9. Get VPS 10 Info](./assets/imgs/08-get-vps-10-info.png)
 
 ## 3) VPS에 SSH로 접속
 
@@ -87,7 +87,7 @@ ssh root@<IP Address>
   - 비밀번호 재확인 (입력 중 표시는 보이지 않아도 정상)
   - 수신 메일의 IP/로그인 정보를 다시 확인
   
-![10. Access to VPS](./assets/imgs/10-access-to-vps.png)
+![10. Access to VPS](./assets/imgs/09-access-to-vps.png)
 
 ### 3-2) Windows
 
