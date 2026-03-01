@@ -1,6 +1,10 @@
 # OpenClaw VPS 설치 가이드
 
 > 코딩 몰라도 됩니다. 24시간 AI 에이전트를 내 서버에 올리는 완전 가이드.
+>
+> Thanks to [kokoju007](https://github.com/kokoju007), Base 생태계 빌더 **꼬냑(@kokoju007)** 님의 원본 프로젝트를 기반으로, OpenClaw를 쉽게 설치·설정할 수 있는 스크립트를 제공하는 저장소입니다.
+> Original repository: https://github.com/kokoju007/openclaw-setup
+> X: https://x.com/supernovajunn
 
 비개발자도 따라할 수 있도록 **Contabo VPS 가입부터 텔레그램 연결까지** 전 과정을 담았습니다.
 
