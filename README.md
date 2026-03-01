@@ -6,7 +6,8 @@
 > Original repository: https://github.com/kokoju007/openclaw-setup
 > X: https://x.com/supernovajunn
 
-비개발자도 따라할 수 있도록 **Contabo VPS 가입부터 텔레그램 연결까지** 전 과정을 담았습니다.
+비개발자도 따라할 수 있도록 **Contabo VPS 가입부터 텔레그램 연결까지** 전 과정을 담았습니다.  
+이 문서는 **Contabo VPS(Cloud VPS) 기준 가이드**입니다.
 
 ---
 
@@ -44,6 +45,13 @@ curl -fsSL https://raw.githubusercontent.com/kokoju007/openclaw-setup/main/insta
 
 Contabo 가입 → SSH 접속 → 설치 → 텔레그램 연결 → API 키 설정까지  
 스크린샷 없이도 따라할 수 있게 단계별로 설명합니다.
+
+### VPS 설치 가이드 (OpenClaw)
+
+- 한글: [vps/README.md](./vps/README.md)
+- English: [vps/README.en.md](./vps/README.en.md)
+
+해당 문서는 Contabo VPS 생성부터 SSH 접속까지의 화면 기반 순서(스크린샷 포함)를 정리한 기본 가이드입니다.
 
 ---
 
