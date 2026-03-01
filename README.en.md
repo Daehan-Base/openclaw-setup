@@ -6,7 +6,8 @@
 > Original repository: https://github.com/kokoju007/openclaw-setup
 > X: https://x.com/supernovajunn
 
-From **Contabo VPS signup to Telegram connection** — every step covered, even for non-developers.
+From **Contabo VPS signup to Telegram connection** — every step covered, even for non-developers.  
+This guide is specifically written for **Contabo VPS (Cloud VPS)**.
 
 ---
 
@@ -44,6 +45,13 @@ Download the PDF guide from the **Releases** tab.
 
 Step-by-step instructions with screenshots:
 Contabo signup → SSH access → Installation → Telegram connection → API key setup
+
+### OpenClaw VPS setup guide
+
+- Korean: [vps/README.md](./vps/README.md)
+- English: [vps/README.en.md](./vps/README.en.md)
+
+This guide includes Contabo signup, VPS creation, and SSH access steps with screenshots.
 
 ---
 
