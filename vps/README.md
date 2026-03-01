@@ -105,3 +105,7 @@ ssh root@<IP Address>
 - 개인키는 내 PC에 보관하고, 공개키만 서버에 등록합니다.
 - 비밀번호 없이도 로그인되며, 인증 키가 없는 접속은 차단됩니다.
 - 실수로 비밀번호가 노출되어도 접속 위험이 낮습니다.
+
+---
+
+*Made by [@ilevk](https://github.com/ilevk) (Based Devrel Ambassador) | Maintained by [Daehan-Base](https://github.com/Daehan-Base)*

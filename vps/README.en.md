@@ -110,3 +110,7 @@ Using an SSH key is safer and more convenient.
 - You can log in without entering a password.
 - Access without a registered key is blocked.
 - Password exposure risk is reduced.
+
+---
+
+*Made by [@ilevk](https://github.com/ilevk) (Based Devrel Ambassador) | Maintained by [Daehan-Base](https://github.com/Daehan-Base)*
