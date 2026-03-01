@@ -106,6 +106,32 @@ ssh root@<IP Address>
 - 비밀번호 없이도 로그인되며, 인증 키가 없는 접속은 차단됩니다.
 - 실수로 비밀번호가 노출되어도 접속 위험이 낮습니다.
 
+## 5) 서버에서 OpenClaw 설치 실행
+
+SSH 접속이 되면 아래 스크립트를 순서대로 붙여넣으세요.  
+레포지토리가 없는 상태를 기준으로 작성했습니다.
+
+```bash
+# 1) 레포지토리 클론
+git clone https://github.com/Daehan-Base/openclaw-setup.git
+
+# 2) 클론한 폴더로 이동
+cd openclaw-setup
+
+# 3) 설치
+bash install.sh
+```
+
+스크립트는 다음 순서로 진행됩니다.
+
+- 1) Ubuntu 환경 점검 (비우분투면 경고 후 진행 여부 확인)
+- 2) Node.js 22 설치/버전 확인
+- 3) `openclaw` 최신 버전 설치 또는 업데이트
+- 4) Telegram 봇 토큰/사용자 ID/Anthropic API 키 입력 후 자동 설정
+- 5) OpenClaw 설정(`openclaw onboard`, gateway/텔레그램 채널), `systemd` 서비스 등록 및 실행 상태 확인
+
+설치 스크립트는 한 번 실행하면 OpenClaw, 텔레그램, 시스템 서비스 등록까지 자동으로 진행됩니다.
+
 ---
 
 *Made by [@ilevk](https://github.com/ilevk) (Based Devrel Ambassador) | Maintained by [Daehan-Base](https://github.com/Daehan-Base)*

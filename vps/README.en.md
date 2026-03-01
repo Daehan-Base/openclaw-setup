@@ -111,6 +111,32 @@ Using an SSH key is safer and more convenient.
 - Access without a registered key is blocked.
 - Password exposure risk is reduced.
 
+## 5) Run OpenClaw installation on the server
+
+After SSH access is confirmed, run the following script step by step.  
+This is written for a fresh server where the repository is not cloned yet.
+
+```bash
+# 1) Clone this repository
+git clone https://github.com/Daehan-Base/openclaw-setup.git
+
+# 2) Enter the cloned directory
+cd openclaw-setup
+
+# 3) Install
+bash install_en.sh
+```
+
+The script runs in this order:
+
+- 1) Verify server environment (warns on non-Ubuntu OS, optional continue)
+- 2) Check/install Node.js 22 (required minimum)
+- 3) Install or update `openclaw` to the latest version
+- 4) Collect Telegram bot token/user ID/Anthropic API key and apply non-interactive OpenClaw onboarding
+- 5) Apply OpenClaw config (`gateway` + Telegram), register systemd service, and confirm running status
+
+The installer sets up OpenClaw, Telegram bot connection, and service registration in one run.
+
 ---
 
 *Made by [@ilevk](https://github.com/ilevk) (Based Devrel Ambassador) | Maintained by [Daehan-Base](https://github.com/Daehan-Base)*
