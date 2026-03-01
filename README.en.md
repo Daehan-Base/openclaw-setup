@@ -55,6 +55,12 @@ This script guarantees:
 
 The full source code is public — inspect it yourself.
 
+## ⚠️ Disclaimer
+
+- This guide is provided for technical reference only. Final responsibility for account security, secret management, and server access control during install and operation remains with the user.
+- Do not share secrets such as API keys, bot tokens, SSH keys, or passwords via chat. Store them locally using secure methods (environment variables, secret files, masked inputs, or equivalent safe mechanisms).
+- Although this script is based on open-source code, review it against your environment and security policies before running it.
+
 ---
 
 ## 🛠 Useful Commands
