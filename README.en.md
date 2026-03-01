@@ -2,9 +2,9 @@
 
 > No coding required. A complete guide to running a 24/7 AI agent on your own server.
 >
-> Thanks to [kokoju007](https://github.com/kokoju007), this repository is maintained and improved from their original project to help set up OpenClaw quickly and easily.
-> Original repository: https://github.com/kokoju007/openclaw-setup
-> X: https://x.com/supernovajunn
+> Thanks to [kokoju007](https://github.com/kokoju007), this repository is maintained and improved from their original project to help set up OpenClaw quickly and easily.  
+>Original repository: https://github.com/kokoju007/openclaw-setup  
+>X: https://x.com/supernovajunn  
 
 From **Contabo VPS signup to Telegram connection** — every step covered, even for non-developers.  
 This guide is specifically written for **Contabo VPS (Cloud VPS)**.
